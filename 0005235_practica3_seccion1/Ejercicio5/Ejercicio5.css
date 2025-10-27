@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    animation: fadein 1.5s ease-in;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.card img {
+    width: 150px;
+}
+
+.btn {
+    padding: 12px;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgb(0, 90, 0);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
